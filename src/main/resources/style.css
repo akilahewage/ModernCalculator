@@ -1,0 +1,78 @@
+/* 1. Background */
+.root-pane {
+    -fx-background-color: #000000;
+}
+
+/* 2. History Line 1 */
+.history-label-dim {
+    -fx-text-fill: #4a4a4a;
+    -fx-font-size: 20px;
+    -fx-font-family: "Segoe UI";
+    -fx-padding: 0 5 0 0;
+}
+
+/* 3. History Line 2 */
+.history-label {
+    -fx-text-fill: #808080;
+    -fx-font-size: 24px;
+    -fx-font-family: "Segoe UI";
+    -fx-padding: 0 5 0 0;
+}
+
+/* 4. Main Result - REDUCED SIZE FOR MORE SPACE */
+.result-label {
+    -fx-text-fill: white;
+    -fx-font-size: 42px; /* Changed from 64px to 42px */
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-padding: 0 5 0 0;
+}
+
+/* 5. Button Shape */
+.button {
+    -fx-background-radius: 20;
+    -fx-min-width: 72px;
+    -fx-min-height: 72px;
+    -fx-font-size: 28px;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+/* 6. Numbers */
+.number-btn {
+    -fx-background-color: #1c1c1c;
+    -fx-text-fill: white;
+}
+.number-btn:hover {
+    -fx-background-color: #333333;
+}
+
+/* 7. Operators */
+.operator-btn {
+    -fx-background-color: #1c1c1c;
+    -fx-text-fill: #2979ff;
+    -fx-font-family: "Arial";
+    -fx-font-size: 30px;
+    -fx-font-weight: normal;
+}
+.operator-btn:hover {
+    -fx-background-color: #333333;
+}
+
+/* 8. Secondary Icon (K) */
+.secondary-btn {
+    -fx-background-color: #1c1c1c;
+    -fx-text-fill: #2979ff;
+    -fx-font-size: 24px;
+}
+
+/* 9. Equals Button */
+.equal-btn {
+    -fx-background-color: #2979ff;
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+}
+.equal-btn:hover {
+    -fx-background-color: #1e6ae6;
+}
